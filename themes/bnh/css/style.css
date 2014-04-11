@@ -1497,10 +1497,12 @@ section * {
   }
 }
 .header-11-sub h3 {
-  color: #7f8c8d;
+  font-family: "felt-tip-woman";
+  font-size: 3em;
+  color: #eeeeee;
 }
 .header-11-sub p {
-  color: #7f8c8d;
+  color: #eeeeee;
 }
 .header-11-sub .additional-links {
   color: #7f8c8d;
