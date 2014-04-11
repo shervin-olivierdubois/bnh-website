@@ -1508,6 +1508,7 @@ section * {
 .header-11-sub .additional-links a {
   color: #697172;
 }
+/* Participants logos. */
 .logos {
   background: #f1f1f1;
   padding-top: 40px;
@@ -1531,6 +1532,7 @@ section * {
     display: none;
   }
 }
+/* Contest. */
 .price-1 {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -1546,4 +1548,8 @@ section * {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
   margin-bottom: 55px;
+}
+/* About us (main). */
+.content-13 p {
+  color: #000000;
 }
