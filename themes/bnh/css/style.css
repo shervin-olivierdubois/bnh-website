@@ -1556,3 +1556,8 @@ section * {
 .content-13 p {
   color: #000000;
 }
+/* Override 'thumbnail' CSS rules. */
+.thumbnail {
+  background-color: transparent;
+  border: none;
+}
