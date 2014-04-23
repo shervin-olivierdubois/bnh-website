@@ -1535,6 +1535,37 @@ section * {
     display: none;
   }
 }
+/* Participants colours. */
+.node-org-dawoods-meat-main {
+  background: #ff9b2a;
+}
+.node-org-zinetti-foods-main {
+  background: #d84134;
+}
+.node-org-global-gourmet-foods-main {
+  background: #666;
+}
+.node-org-hills-foods-main {
+  background: #666;
+}
+.node-org-arbutus-ridge-farms-main {
+  background: #666;
+}
+.node-org-driediger-farms-main {
+  background: #666;
+}
+.node-org-greenhouse-delight-foods-main {
+  background: #666;
+}
+.node-org-kaslo-sourdough-pasta-main {
+  background: #666;
+}
+.node-org-gourmet-savories-main {
+  background: #666;
+}
+.node-org-tamarac-fresh-cut-foods-main {
+  background: #666;
+}
 /* Contest. */
 .price-1 {
   padding-top: 80px;
