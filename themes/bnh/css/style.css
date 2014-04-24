@@ -1480,6 +1480,10 @@ section * {
     margin: 25px 0 10px;
   }
 }
+header .brand {
+  font-size: 2em !important;
+  color: #333333 !important;
+}
 .header-11-sub .background {
   background-image: url("../img/page-tpl-hero-bg.jpg");
   opacity: 80;
@@ -1498,8 +1502,9 @@ section * {
 }
 .header-11-sub h3 {
   font-family: "felt-tip-woman";
-  font-size: 3em;
+  font-size: 2.5em;
   color: #eeeeee;
+  line-height: 1em;
 }
 .header-11-sub p {
   color: #eeeeee;
@@ -1509,6 +1514,9 @@ section * {
 }
 .header-11-sub .additional-links a {
   color: #697172;
+}
+.header-11-sub .logo {
+  margin-bottom: 2em;
 }
 /* Participants logos. */
 .logos {
@@ -1549,7 +1557,7 @@ section * {
   background: #666;
 }
 .node-org-arbutus-ridge-farms-main {
-  background: #666;
+  background: #ffbd50;
 }
 .node-org-driediger-farms-main {
   background: #666;
@@ -1558,7 +1566,7 @@ section * {
   background: #666;
 }
 .node-org-kaslo-sourdough-pasta-main {
-  background: #666;
+  background: #f8eb26;
 }
 .node-org-gourmet-savories-main {
   background: #666;
@@ -1566,10 +1574,17 @@ section * {
 .node-org-tamarac-fresh-cut-foods-main {
   background: #666;
 }
+/* Buttons. */
+.btn-color-black {
+  color: #ffffff;
+  background-color: #666666;
+}
+.btn-color-black:hover {
+  background-color: #333333;
+}
 /* Contest. */
 .price-1 {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding: 40px 0 40px 0;
 }
 .price-1 h3 {
   margin: 0 0 8px;
@@ -1583,9 +1598,26 @@ section * {
   text-align: center;
   margin-bottom: 55px;
 }
+/* Player. */
+.header-11-sub .player {
+  height: 440px;
+  background: #ffffff;
+}
 /* About us (main). */
+.content-13 {
+  padding: 40px 0 40px 0;
+}
+.content-13 h3 {
+  margin-bottom: 0.75em;
+  color: #000000;
+}
 .content-13 p {
   color: #000000;
+}
+/* Funding. */
+section.funding,
+section.postscript.participants {
+  border-top: 1px solid #2c3e50;
 }
 /* Override 'thumbnail' CSS rules. */
 .thumbnail {
