@@ -1484,6 +1484,12 @@ header .brand {
   font-size: 2em !important;
   color: #333333 !important;
 }
+.header-11 .navbar .nav > li > a {
+  color: #16a085;
+}
+.header-11 .navbar .nav > li > a:hover {
+  color: #000000;
+}
 .header-11-sub .background {
   background-image: url("../img/page-tpl-hero-bg.jpg");
   opacity: 80;
@@ -1582,6 +1588,13 @@ header .brand {
 .btn-color-black:hover {
   background-color: #333333;
 }
+.btn-cta-1 {
+  color: #ffffff;
+  background-color: #16a085;
+}
+.btn-cta-1:hover {
+  background-color: #107360;
+}
 /* Contest. */
 .price-1 {
   padding: 40px 0 40px 0;
@@ -1589,14 +1602,23 @@ header .brand {
 .price-1 h3 {
   margin: 0 0 8px;
   font-size: 35px;
-  text-align: center;
-  letter-spacing: -1px;
 }
 .price-1 .lead {
   font-size: 25px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
   margin-bottom: 55px;
+}
+.contest.cta {
+  padding: 20px 0 60px 0;
+}
+.contest.cta .btn {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.org-about .row .col-sm-8 img:first-child {
+  float: right;
+  margin: 0 0 1.5rem 1.5rem;
 }
 /* Player. */
 .header-11-sub .player {
@@ -1623,4 +1645,22 @@ section.postscript.participants {
 .thumbnail {
   background-color: transparent;
   border: none;
+}
+.non-breaking {
+  display: inline-block;
+}
+.product-qualities {
+  margin: 1em inherit 1em inherit;
+  font-size: 2rem;
+}
+.product-qualities li {
+  margin: 0.75em 0 0.75em 0;
+  color: #1ABC9C;
+  padding: 0.375em 0 0 0;
+}
+.product-qualities li i {
+  font-size: 1.5em;
+}
+.hero .btn-cta-1 {
+  margin: 1.5rem 0 1.5rem 0;
 }
