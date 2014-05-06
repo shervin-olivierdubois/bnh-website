@@ -1480,9 +1480,9 @@ section * {
     margin: 25px 0 10px;
   }
 }
+/* BNH Green */
 header .brand {
-  font-size: 2em !important;
-  color: #333333 !important;
+  padding-top: 1em !important;
 }
 .header-11 .navbar .nav > li > a {
   color: #16a085;
@@ -1508,11 +1508,12 @@ header .brand {
 }
 .header-11-sub h3 {
   font-family: "felt-tip-woman";
-  font-size: 2.5em;
+  font-size: 4em;
   color: #eeeeee;
   line-height: 1em;
 }
 .header-11-sub p {
+  font-size: 1.5em;
   color: #eeeeee;
 }
 .header-11-sub .additional-links {
@@ -1616,7 +1617,7 @@ header .brand {
   font-size: 2rem;
   text-transform: uppercase;
 }
-.org-about .row .col-sm-8 img:first-child {
+.org-about .row .col-sm-8 > img {
   float: right;
   margin: 0 0 1.5rem 1.5rem;
 }
@@ -1650,15 +1651,17 @@ section.postscript.participants {
   display: inline-block;
 }
 .product-qualities {
-  margin: 1em inherit 1em inherit;
-  font-size: 2rem;
+  padding: 2em 0 1.5em 0;
+  background: #16a085;
 }
-.product-qualities li {
-  margin: 0.75em 0 0.75em 0;
-  color: #1ABC9C;
-  padding: 0.375em 0 0 0;
+.product-qualities * {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  vertical-align: middle !important;
+  line-height: 1em;
 }
-.product-qualities li i {
+.product-qualities i {
   font-size: 1.5em;
 }
 .hero .btn-cta-1 {

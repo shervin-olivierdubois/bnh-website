@@ -9,7 +9,7 @@
         <div class="page-wrapper">
             <?php print file_get_contents('../themes/bnh/templates/header.html'); ?>
             <?php print file_get_contents('../content/arbutus-ridge-farms--hero--content.html'); ?>
-            <?php //print file_get_contents('../content/global--main--product-qualities.html'); ?>
+            <?php print file_get_contents('../content/global--main--product-qualities.html'); ?>
             <?php print file_get_contents('../content/arbutus-ridge-farms--main--content.html'); ?>
             <?php print file_get_contents('../content/global--main--contest.html'); ?>
             <?php print file_get_contents('../content/arbutus-ridge-farms--main--contest.html'); ?>

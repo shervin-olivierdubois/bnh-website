@@ -22,16 +22,30 @@
 /* footer */
 @import '@{startup-basePath}ui-kit/ui-kit-footer/less/footer-2.less';
 
+
+
+
+//**
+//* COLOURS
+//*/
+
+// Primary colours.
+@color-1: rgb(22, 160, 133); /* BNH Green */
+
+
+
+
 header .brand {
+    padding-top: 1em !important;
     //font-family: "felt-tip-woman" !important;
-    font-size: 2em !important;
-    color: rgb(51, 51, 51) !important;
+    //font-size: 2em !important;
+    //color: rgb(51, 51, 51) !important;
 }
 
 .header-11 .navbar .nav > li > a {
-    color: #16a085;
+    color: @color-1;
     &:hover {
-        color: darken(#16a085, 50);
+        color: darken(@color-1, 50);
     }
 }
 
@@ -47,11 +61,12 @@ header .brand {
 .header-11-sub {
     h3 {
         font-family: "felt-tip-woman";
-        font-size: 2.5em;
+        font-size: 4em;
         color:#eeeeee;
         line-height: 1em;
     }
     p {
+        font-size: 1.5em;
         color:#eeeeee;
     }
     .additional-links {
@@ -127,8 +142,8 @@ header .brand {
 }
 .btn-cta-1 {
     color: rgb(255, 255, 255);
-    background-color: #16a085;
-    &:hover { background-color: darken(#16a085, 10); }
+    background-color: @color-1;
+    &:hover { background-color: darken(@color-1, 10); }
 }
 
 /* Contest. */
@@ -155,7 +170,7 @@ header .brand {
     }
 }
 
-.org-about .row .col-sm-8 img:first-child {
+.org-about .row .col-sm-8 > img {
     float: right;
     margin: 0 0 1.5rem 1.5rem;
 }
@@ -198,14 +213,16 @@ section.funding, section.postscript.participants {
 }
 
 .product-qualities {
-    margin: 1em inherit 1em inherit;
-    font-size: 2rem;
-    li {
-        margin: 0.75em 0 0.75em 0;
-        color: #1ABC9C;
-        padding: 0.375em 0 0 0;
-        i { font-size: 1.5em; }
+    padding: 2em 0 1.5em 0;
+    background: @color-1;
+    * {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        vertical-align: middle !important;
+        line-height: 1em;
     }
+    i { font-size: 1.5em; }
 }
 
 .hero .btn-cta-1 {
